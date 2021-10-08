@@ -33,9 +33,10 @@ Partial Class DinerMenu
         'DinerNameLabel
         '
         Me.DinerNameLabel.AutoSize = True
-        Me.DinerNameLabel.Location = New System.Drawing.Point(421, 9)
+        Me.DinerNameLabel.Font = New System.Drawing.Font("Gabriola", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.DinerNameLabel.Location = New System.Drawing.Point(294, -17)
         Me.DinerNameLabel.Name = "DinerNameLabel"
-        Me.DinerNameLabel.Size = New System.Drawing.Size(171, 25)
+        Me.DinerNameLabel.Size = New System.Drawing.Size(539, 176)
         Me.DinerNameLabel.TabIndex = 0
         Me.DinerNameLabel.Text = "Tastes of Lisbon"
         Me.DinerNameLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -79,18 +80,19 @@ Partial Class DinerMenu
         '
         'DisplaySpecialLabel
         '
-        Me.DisplaySpecialLabel.AutoSize = True
-        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(162, 108)
+        Me.DisplaySpecialLabel.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DisplaySpecialLabel.Font = New System.Drawing.Font("Gabriola", 16.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(-10, 196)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
-        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(77, 25)
+        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(1145, 217)
         Me.DisplaySpecialLabel.TabIndex = 6
-        Me.DisplaySpecialLabel.Text = "Label1"
+        Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'DinerMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1118, 769)
+        Me.ClientSize = New System.Drawing.Size(1129, 773)
         Me.Controls.Add(Me.DisplaySpecialLabel)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.SoupButton)
