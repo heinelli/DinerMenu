@@ -45,9 +45,9 @@ Partial Class DinerMenu
         '
         Me.FishButton.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.FishButton.Font = New System.Drawing.Font("Gabriola", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FishButton.Location = New System.Drawing.Point(919, 599)
+        Me.FishButton.Location = New System.Drawing.Point(840, 561)
         Me.FishButton.Name = "FishButton"
-        Me.FishButton.Size = New System.Drawing.Size(198, 157)
+        Me.FishButton.Size = New System.Drawing.Size(212, 157)
         Me.FishButton.TabIndex = 3
         Me.FishButton.Text = "Daily Fish"
         Me.FishButton.UseVisualStyleBackColor = False
@@ -56,7 +56,7 @@ Partial Class DinerMenu
         '
         Me.SaladButton.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.SaladButton.Font = New System.Drawing.Font("Gabriola", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SaladButton.Location = New System.Drawing.Point(701, 599)
+        Me.SaladButton.Location = New System.Drawing.Point(471, 561)
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(198, 157)
         Me.SaladButton.TabIndex = 2
@@ -67,7 +67,7 @@ Partial Class DinerMenu
         '
         Me.SoupButton.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.SoupButton.Font = New System.Drawing.Font("Gabriola", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
-        Me.SoupButton.Location = New System.Drawing.Point(478, 599)
+        Me.SoupButton.Location = New System.Drawing.Point(78, 561)
         Me.SoupButton.Name = "SoupButton"
         Me.SoupButton.Size = New System.Drawing.Size(198, 157)
         Me.SoupButton.TabIndex = 1
@@ -76,12 +76,13 @@ Partial Class DinerMenu
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(29, 726)
+        Me.ExitButton.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ExitButton.Location = New System.Drawing.Point(1063, 733)
         Me.ExitButton.Name = "ExitButton"
-        Me.ExitButton.Size = New System.Drawing.Size(83, 29)
+        Me.ExitButton.Size = New System.Drawing.Size(72, 42)
         Me.ExitButton.TabIndex = 5
         Me.ExitButton.Text = "Exit"
-        Me.ExitButton.UseVisualStyleBackColor = True
+        Me.ExitButton.UseVisualStyleBackColor = False
         '
         'DisplaySpecialLabel
         '

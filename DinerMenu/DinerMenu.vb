@@ -19,5 +19,9 @@ Creamy Portuguese soup made of potatoes, green collards, and chorizo."
         DisplaySpecialLabel.Text = "*Bacalhau a Brás*
 Shards of salted cod mixed with scrambled eggs and fried potatoes."
     End Sub
+
+    Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
+        Me.Close()
+    End Sub
 End Class
 
