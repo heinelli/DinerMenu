@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class DinerMenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +20,14 @@ Partial Class DinerMenu
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.DinerNameLabel = New System.Windows.Forms.Label()
         Me.FishButton = New System.Windows.Forms.Button()
         Me.SaladButton = New System.Windows.Forms.Button()
         Me.SoupButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
+        Me.DisplaySpecialLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'DinerNameLabel
@@ -34,9 +35,9 @@ Partial Class DinerMenu
         Me.DinerNameLabel.AutoSize = True
         Me.DinerNameLabel.Location = New System.Drawing.Point(421, 9)
         Me.DinerNameLabel.Name = "DinerNameLabel"
-        Me.DinerNameLabel.Size = New System.Drawing.Size(236, 25)
+        Me.DinerNameLabel.Size = New System.Drawing.Size(171, 25)
         Me.DinerNameLabel.TabIndex = 0
-        Me.DinerNameLabel.Text = "Insert Diner Name Here"
+        Me.DinerNameLabel.Text = "Tastes of Lisbon"
         Me.DinerNameLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'FishButton
@@ -50,7 +51,7 @@ Partial Class DinerMenu
         '
         'SaladButton
         '
-        Me.SaladButton.Location = New System.Drawing.Point(693, 599)
+        Me.SaladButton.Location = New System.Drawing.Point(693, 600)
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(198, 157)
         Me.SaladButton.TabIndex = 3
@@ -76,11 +77,21 @@ Partial Class DinerMenu
         Me.ExitButton.Text = "Exit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
+        'DisplaySpecialLabel
+        '
+        Me.DisplaySpecialLabel.AutoSize = True
+        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(162, 108)
+        Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
+        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(77, 25)
+        Me.DisplaySpecialLabel.TabIndex = 6
+        Me.DisplaySpecialLabel.Text = "Label1"
+        '
         'DinerMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1118, 769)
+        Me.Controls.Add(Me.DisplaySpecialLabel)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.SoupButton)
         Me.Controls.Add(Me.SaladButton)
@@ -98,4 +109,5 @@ Partial Class DinerMenu
     Friend WithEvents SaladButton As Button
     Friend WithEvents SoupButton As Button
     Friend WithEvents ExitButton As Button
+    Friend WithEvents DisplaySpecialLabel As Label
 End Class
