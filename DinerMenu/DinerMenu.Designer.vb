@@ -34,7 +34,7 @@ Partial Class DinerMenu
         '
         Me.DinerNameLabel.AutoSize = True
         Me.DinerNameLabel.Font = New System.Drawing.Font("Gabriola", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
-        Me.DinerNameLabel.Location = New System.Drawing.Point(294, -17)
+        Me.DinerNameLabel.Location = New System.Drawing.Point(305, 9)
         Me.DinerNameLabel.Name = "DinerNameLabel"
         Me.DinerNameLabel.Size = New System.Drawing.Size(539, 176)
         Me.DinerNameLabel.TabIndex = 0
@@ -43,29 +43,34 @@ Partial Class DinerMenu
         '
         'FishButton
         '
-        Me.FishButton.Location = New System.Drawing.Point(911, 599)
+        Me.FishButton.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.FishButton.Font = New System.Drawing.Font("Gabriola", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FishButton.Location = New System.Drawing.Point(919, 599)
         Me.FishButton.Name = "FishButton"
         Me.FishButton.Size = New System.Drawing.Size(198, 157)
-        Me.FishButton.TabIndex = 2
+        Me.FishButton.TabIndex = 3
         Me.FishButton.Text = "Daily Fish"
-        Me.FishButton.UseVisualStyleBackColor = True
+        Me.FishButton.UseVisualStyleBackColor = False
         '
         'SaladButton
         '
-        Me.SaladButton.Location = New System.Drawing.Point(693, 600)
+        Me.SaladButton.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.SaladButton.Font = New System.Drawing.Font("Gabriola", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SaladButton.Location = New System.Drawing.Point(701, 599)
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(198, 157)
-        Me.SaladButton.TabIndex = 3
+        Me.SaladButton.TabIndex = 2
         Me.SaladButton.Text = "Salad"
-        Me.SaladButton.UseVisualStyleBackColor = True
+        Me.SaladButton.UseVisualStyleBackColor = False
         '
         'SoupButton
         '
-        Me.SoupButton.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.SoupButton.Location = New System.Drawing.Point(474, 599)
+        Me.SoupButton.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.SoupButton.Font = New System.Drawing.Font("Gabriola", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.SoupButton.Location = New System.Drawing.Point(478, 599)
         Me.SoupButton.Name = "SoupButton"
         Me.SoupButton.Size = New System.Drawing.Size(198, 157)
-        Me.SoupButton.TabIndex = 4
+        Me.SoupButton.TabIndex = 1
         Me.SoupButton.Text = "Soup"
         Me.SoupButton.UseVisualStyleBackColor = False
         '
@@ -81,6 +86,7 @@ Partial Class DinerMenu
         'DisplaySpecialLabel
         '
         Me.DisplaySpecialLabel.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DisplaySpecialLabel.BackColor = System.Drawing.Color.Transparent
         Me.DisplaySpecialLabel.Font = New System.Drawing.Font("Gabriola", 16.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.DisplaySpecialLabel.Location = New System.Drawing.Point(-10, 196)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
@@ -92,6 +98,8 @@ Partial Class DinerMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1129, 773)
         Me.Controls.Add(Me.DisplaySpecialLabel)
         Me.Controls.Add(Me.ExitButton)
@@ -100,7 +108,7 @@ Partial Class DinerMenu
         Me.Controls.Add(Me.FishButton)
         Me.Controls.Add(Me.DinerNameLabel)
         Me.Name = "DinerMenu"
-        Me.Text = "Form1"
+        Me.Text = "Tastes of Lisbon Special Menu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
