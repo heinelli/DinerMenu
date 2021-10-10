@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DinerMenu.vb">
+    <Compile Include="DinerMenuForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DinerMenu.Designer.vb">
-      <DependentUpon>DinerMenu.vb</DependentUpon>
+    <Compile Include="DinerMenuForm.Designer.vb">
+      <DependentUpon>DinerMenuForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DinerMenu.resx">
-      <DependentUpon>DinerMenu.vb</DependentUpon>
+    <EmbeddedResource Include="DinerMenuForm.resx">
+      <DependentUpon>DinerMenuForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

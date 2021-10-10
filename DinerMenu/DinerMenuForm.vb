@@ -4,7 +4,11 @@
 'Diner Menu Program
 'https://github.com/heinelli/DinerMenu.git
 
-Public Class DinerMenu
+Option Explicit On
+Option Strict On
+
+'Each button displays the appropriate text when clicked.
+Public Class DinerMenuForm
     Private Sub SaladButton_Click(sender As Object, e As EventArgs) Handles SaladButton.Click
         DisplaySpecialLabel.Text = "*Salada de Polvo*
 Octopus salad."
