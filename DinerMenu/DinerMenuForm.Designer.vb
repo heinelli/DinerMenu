@@ -51,7 +51,7 @@ Partial Class DinerMenuForm
         Me.FishButton.Name = "FishButton"
         Me.FishButton.Size = New System.Drawing.Size(106, 82)
         Me.FishButton.TabIndex = 3
-        Me.FishButton.Text = "Daily Fish"
+        Me.FishButton.Text = "Daily &Fish"
         Me.FishButton.UseVisualStyleBackColor = False
         '
         'SaladButton
@@ -63,7 +63,7 @@ Partial Class DinerMenuForm
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(99, 82)
         Me.SaladButton.TabIndex = 2
-        Me.SaladButton.Text = "Salad"
+        Me.SaladButton.Text = "S&alad"
         Me.SaladButton.UseVisualStyleBackColor = False
         '
         'SoupButton
@@ -75,7 +75,7 @@ Partial Class DinerMenuForm
         Me.SoupButton.Name = "SoupButton"
         Me.SoupButton.Size = New System.Drawing.Size(99, 82)
         Me.SoupButton.TabIndex = 1
-        Me.SoupButton.Text = "Soup"
+        Me.SoupButton.Text = "S&oup"
         Me.SoupButton.UseVisualStyleBackColor = False
         '
         'ExitButton
@@ -87,7 +87,7 @@ Partial Class DinerMenuForm
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(36, 22)
         Me.ExitButton.TabIndex = 5
-        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = False
         '
         'DisplaySpecialLabel
