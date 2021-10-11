@@ -14,7 +14,8 @@ Public Class DinerMenuForm
 Octopus salad."
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
+    'generated stubs won't auto update Sub name - TJR
+    Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
         DisplaySpecialLabel.Text = "*Caldo Verde*
 Creamy Portuguese soup made of potatoes, green collards, and chorizo."
     End Sub
